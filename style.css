@@ -3,23 +3,13 @@ body {
   font-family: Helvetica, sans-serif;
 }
 
-.nav-top li {
-  font-family: Helvetica;
-  font-size: 18px;
-  color: white;
-  list-style: none;
-  text-decoration: underline;
-}
-
 h1 {
-  font-family: Helvetica, sans-serif;
   font-size: 70px;
   font-weight: bold;
   color: white;
 }
 
 h2 {
-  font-family: Helvetica;
   font-size: 32px;
   font-weight: bold;
 }
@@ -54,5 +44,12 @@ span {
 }
 .nav-bottom li {
   display: inline;
+  text-decoration: underline;
+}
+
+.nav-top li {
+  font-size: 18px;
+  color: white;
+  list-style: none;
   text-decoration: underline;
 }
