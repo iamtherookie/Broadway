@@ -3,7 +3,7 @@ body {
   font-family: Helvetica, sans-serif;
 }
 
-ul {
+.nav-top li {
   font-family: Helvetica;
   font-size: 18px;
   color: white;
@@ -39,17 +39,20 @@ p {
   font-size: 14px;
 }
 
-#navlist {
-  background-color: dimgray;
-  text-align: left;
-}
-
-#navlist li {
+span {
   font-size: 11px;
-  color: white;
-  display: inline;
 }
 
 .top {
   background-image: url("resources/building.png");
+}
+
+.bottom {
+    background-color: dimgray;
+    color: white;
+    text-align: left;
+}
+.nav-bottom li {
+  display: inline;
+  text-decoration: underline;
 }
