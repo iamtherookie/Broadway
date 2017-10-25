@@ -1,7 +1,55 @@
 body {
   text-align: center;
+  font-family: Helvetica, sans-serif;
 }
 
 ul {
+  font-family: Helvetica;
+  font-size: 18px;
+  color: white;
   list-style: none;
+  text-decoration: underline;
+}
+
+h1 {
+  font-family: Helvetica, sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+}
+
+h2 {
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 23px;
+  font-weight: bold;
+  background-image: url("resources/building.png");
+  color: white;
+}
+p {
+  font-size: 14px;
+}
+
+#navlist {
+  background-color: dimgray;
+  text-align: left;
+}
+
+#navlist li {
+  font-size: 11px;
+  color: white;
+  display: inline;
+}
+
+.top {
+  background-image: url("resources/building.png");
 }
